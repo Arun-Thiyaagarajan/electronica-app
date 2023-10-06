@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Base Colors  -->
+    <color name="transparent">#00000000</color>
+    <color name="trans_black">#CD000000</color>
+    <color name="black">#13131A</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--  Other Colors  -->
+    <color name="rose">#DA3161</color>
+    <color name="dk_blue">#232A30</color>
+    <color name="teal">#39C7A5</color>
+    <color name="ip_grey">#F8FAF9</color>
+    <color name="txt_grey">#95A0B0</color>
+    <color name="txt_blue">#0F97DC</color>
+    <color name="txt_green">#16A106</color>
+    <color name="icon_grey">#BABBBC</color>
+    <color name="bkg_grey">#D5D5E1</color>
+    <color name="bkg_white">#F5F5F5</color>
+    <color name="bkg_blue">#E2F2FA</color>
+    <color name="bkg_red">#FEE1E6</color>
+    <color name="bkg_green">#C2E1BA</color>
+
+</resources>

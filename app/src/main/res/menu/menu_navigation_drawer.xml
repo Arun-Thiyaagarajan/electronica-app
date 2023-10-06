@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/home_selector"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/ic_cart_selector"
+            android:title="@string/cart" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile_selector"
+            android:title="@string/my_account" />
+
+        <item
+            android:id="@+id/rate_us"
+            android:icon="@drawable/rate_us"
+            android:title="@string/rate_us" />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_login"
+        android:visible="true"
+        android:icon="@drawable/login_alt"
+        android:title="@string/login"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:visible="false"
+        android:icon="@drawable/sign_out_alt"
+        android:title="@string/logout"/>
+
+</menu>

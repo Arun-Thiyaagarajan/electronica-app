@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936820818105",
+    "project_id": "electronica-store",
+    "storage_bucket": "electronica-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936820818105:android:66d8bb29f3c4d11663db68",
+        "android_client_info": {
+          "package_name": "com.example.electronica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936820818105-3rgn2iq30253l4jutaji057j14k2pro0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwFM-NJf6fthUZUSzrToubWjjup5ZyxFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936820818105-3rgn2iq30253l4jutaji057j14k2pro0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

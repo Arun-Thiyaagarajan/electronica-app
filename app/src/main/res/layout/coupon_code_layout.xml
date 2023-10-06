@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/couponContainer"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_below="@id/borderBottom1"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/couponQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/coupon_question"
+        android:textColor="@color/txt_grey"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_below="@+id/couponQuestionText"
+        android:background="@drawable/ip_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/couponIpBox"
+            android:layout_width="275dp"
+            android:maxWidth="280dp"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:ems="10"
+            android:hint="@string/coupon_code"
+            android:inputType="text|textCapCharacters"
+            android:maxLength="15"
+            android:minHeight="48dp"
+            android:padding="15dp"
+            android:saveEnabled="false"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/txt_grey"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/applyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/coupon_btn_ripple"
+            android:backgroundTint="@color/teal"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="@string/apply"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
